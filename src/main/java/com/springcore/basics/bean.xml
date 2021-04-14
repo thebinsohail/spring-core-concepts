@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="student1" class="com.springcore.basics.Student">
+		<property name="name" value="Anas"/>
+		<property name="age" value="20"/>
+		<property name="batch" value="2019"/>
+	</bean>
+	
+	<bean id="student2" class="com.springcore.basics.Student">
+		<property name="name" value="Ali"/>
+		<property name="age" value="19"/>
+		<property name="batch" value="2020"/>
+	</bean>
+	
+	
+	
+	
+</beans>
